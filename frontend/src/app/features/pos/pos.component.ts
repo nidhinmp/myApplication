@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { ProductService, Product, ProductVariant, ProductModifier } from '../../core/services/product.service';
+import { ProductService, Product, ProductVariant, ProductModifier } from '../../../core/services/product.service';
 
 interface CartItem {
   product: Product;
